@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="Label">
+        <attr name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="InputField">
+        <attr name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="IButton">
+        <attr name="fontName"/>
+    </declare-styleable>
+
+    <attr name="fontName" format="enum">
+        <enum name= "Bold" value="1" />
+        <enum name="Medium" value="2" />
+        <enum name="Normal" value="3" />
+    </attr>
+
+
+
+    // Icon Input Layout attrs
+    <declare-styleable name="InputIcon">
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="icon" format="reference" />
+        <attr name="inputType" format="integer"/>
+    </declare-styleable>
+
+    // Icon Label Layout attrs
+    <declare-styleable name="LabelIcon">
+       <attr name="labelhint" format="string" />
+        <attr name="labeletext" format="string" />
+        <attr name="labeleSize" format="dimension" />
+        <attr name="labletextColor" format="color" />
+        <attr name="labelicon" format="reference" />
+    </declare-styleable>
+
+    // Icon Label and Hint Layout attrs
+    <declare-styleable name="LabelHintIcon">
+        <attr name="labelHint" format="string" />
+        <attr name="labelText" format="string" />
+        <attr name="showEditIcon" format="boolean" />
+        <attr name="labelIcon" format="reference" />
+        <attr name="labelSize" format="dimension" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="LRLabel">
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name= "boldIt" format="boolean"/>
+        <attr name="rlSize" format="dimension"/>
+        <attr name="rlColor" format="color"/>
+    </declare-styleable>
+
+
+
+
+</resources>

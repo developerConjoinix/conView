@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="Bold">Bold</string>
+    <string name="Medium">Medium</string>
+    <string name="Normal">Normal</string>
+</resources>

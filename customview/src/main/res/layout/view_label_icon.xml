@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="@dimen/_40sdp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_marginStart="@dimen/_5sdp"
+
+
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+          />
+    <fview.Label
+
+        android:layout_toEndOf="@+id/icon"
+        android:id="@+id/txtValue"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_14sdp"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
