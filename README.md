@@ -1,4 +1,4 @@
-<p><strong>conView a library where you can fin custom font (maven pro) View listed below</strong></p>
+<p><strong>conView a library where you can find custom font (maven pro) View listed below</strong></p>
 <p>&nbsp;</p>
 <p><strong>IButton:</strong></p>
 <p>A simple button with custom font&nbsp;</p>
