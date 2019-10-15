@@ -18,7 +18,7 @@
 <pre>
 <p><strong>Add the following line in app-level&nbsp;Gradle File</strong></p>
 <div>dependencies {</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;implementation 'com.github.developerConjoinix:conView:1.0'</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;implementation 'com.github.developerConjoinix:conView:1.1'</div>
 <div>}</div>
 </pre>
 <p>&nbsp;</p>
